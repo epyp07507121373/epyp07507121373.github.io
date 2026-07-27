@@ -1062,7 +1062,8 @@ strong { color: var(--color-text); }
   border-top: 1px solid var(--color-border-light);
 }
 
-.qr-code svg { border: 1px solid var(--color-border); }
+.qr-code svg,
+.qr-code img { border: 1px solid var(--color-border); }
 
 .contact-qr span {
   font-size: 0.85rem;
